@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Experiences.module.css";
 import Grid from "@mui/material/Grid";
 import Image from "next/image";
-import companyLogo from "./optum.png";
+import companyLogo from "./kiet.jpeg";
 
 const Experiences = () => {
   return (
@@ -16,8 +16,8 @@ const Experiences = () => {
                 <Image src={companyLogo} alt="Company Logo" width={200} />
               </div>
 
-              <div className={styles.text}>React Developer</div>
-              <div className={styles.text}>Aug 2020 – May 2022</div>
+              <div className={styles.text}>Aspiring Software Developer</div>
+              <div className={styles.text}>Aug 2023 – May 2025</div>
             </div>
           </Grid>
           <Grid item xs={6}>
@@ -26,8 +26,8 @@ const Experiences = () => {
                 <Image src={companyLogo} alt="Company Logo" width={200} />
               </div>
 
-              <div className={styles.text}>React Developer</div>
-              <div className={styles.text}>Aug 2020 – May 2022</div>
+              <div className={styles.text}>Aspiring Software Developer</div>
+              <div className={styles.text}>Aug 2023 – May 2025</div>
             </div>
           </Grid>
           <Grid item xs={6}>
@@ -36,8 +36,8 @@ const Experiences = () => {
                 <Image src={companyLogo} alt="Company Logo" width={200} />
               </div>
 
-              <div className={styles.text}>React Developer</div>
-              <div className={styles.text}>Aug 2020 – May 2022</div>
+              <div className={styles.text}>Aspiring Software Developer</div>
+              <div className={styles.text}>Aug 2023 – May 2025</div>
             </div>
           </Grid>
         </Grid>
