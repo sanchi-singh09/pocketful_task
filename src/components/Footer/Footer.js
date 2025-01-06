@@ -11,15 +11,15 @@ const Footer = () => {
       <div className={styles.heading}>Get In Touch</div>
       <div className={styles.content}>
         <div>
-          I'm currently looking for full-time React Developer/Frontend Developer
+          I'm currently looking for full-time Frontend Developer/Backend Developer
           opportunities! If you know of any positions available, if you have any
           questions, or if you just want to say hi, please feel free to email me
-          at, <span className={styles.email}>ridham.garg45@gmail.com</span>.
+          at, <span className={styles.email}>singhsanchi09@gmail.com</span>.
         </div>
         <div className={styles.end}>
           <CodeOffIcon className={styles.icon} /> with{" "}
           <FavoriteIcon className={styles.icon} /> by{" "}
-          <span className={styles.name}>Ridham Garg</span> using{" "}
+          <span className={styles.name}>Sanchi Singh</span> using{" "}
           <Image src={ReactIcon} alt="React Icon" className={styles.reactImg} width={20} height={20} />
         </div>
       </div>
