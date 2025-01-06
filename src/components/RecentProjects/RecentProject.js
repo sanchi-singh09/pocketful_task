@@ -42,7 +42,7 @@ const RecentProject = () => {
         </Grid>
         <Grid item xs={6}>
           <div className={styles.card}>
-            <div>myportfolio</div>
+            <div>budget_tracker</div>
             <div className={styles.buttonsContainer}>
               <span className={styles.buttonContainer}>
                 <GitHubIcon className={styles.icon} />
@@ -74,7 +74,7 @@ const RecentProject = () => {
         </Grid>
         <Grid item xs={6}>
           <div className={styles.card}>
-            <div>myportfolio</div>
+            <div>task_management</div>
             <div className={styles.buttonsContainer}>
               <span className={styles.buttonContainer}>
                 <GitHubIcon className={styles.icon} />
@@ -106,7 +106,7 @@ const RecentProject = () => {
         </Grid>
         <Grid item xs={6}>
           <div className={styles.card}>
-            <div>myportfolio</div>
+            <div>aligarh_diary</div>
             <div className={styles.buttonsContainer}>
               <span className={styles.buttonContainer}>
                 <GitHubIcon className={styles.icon} />
