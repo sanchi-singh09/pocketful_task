@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./AboutMe.module.css";
-import profilePic from "./profile-pic.jpg"; // Make sure to replace this with the actual path to your image
+import profilePic from "./profile-pic1.jpeg";
 import Image from "next/image";
 
 const AboutMe = () => {
