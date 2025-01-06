@@ -10,7 +10,7 @@ return (
     <div className={styles.container}>
         <div className={styles.centeredDiv}>
             <h1 className={styles.name}>Sanchi Singh</h1>
-            <p className={styles.subHeading}>Passionate</p>
+            <p className={styles.subHeading}>Passionate about changing the world with technology.</p>
             <div>
                     <GitHubIcon className={styles.icon}/>
                     <FacebookIcon className={styles.icon}/>
