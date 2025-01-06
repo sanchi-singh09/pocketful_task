@@ -18,13 +18,12 @@ const AboutMe = () => {
       <div className={styles.textContainer}>
         <h1 className={styles.centeredTitle}>About Me</h1>
         <p className={styles.aboutMeText}>
-          My name is Sanchi Singh. I’m persuing post-graduation from KIET Group Of Institutions
-          Ghaziabad.
-          I'm most passionate
-          about giving back to the community, and my goal is to pursue this
-          passion within the field of software engineering. In my free time I
-          like working on open source projects, I enjoy reading books,
-          traveling, and exploring new places.
+          My name is Sanchi Singh, and I am currently pursuing my Master of Computer Applications (MCA) 
+          at KIET Group of Institutions, Ghaziabad.
+
+          I am passionate about giving back to the community and aspire to channel this passion through 
+          a career in software engineering. In my free time, I enjoy contributing to open-source projects, 
+          reading books, traveling, and exploring new places.
         </p>
         <div className={styles.resumeContainer}>
           <span className={styles.resumeButton}>Resume</span>
