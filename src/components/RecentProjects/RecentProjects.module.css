@@ -1,0 +1,53 @@
+.container {
+  padding: 60px 120px;
+  background-color: #d8dfe6;
+  color: black;
+}
+
+.heading {
+  font-size: 44px;
+  font-weight: 400;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.card {
+  background-color: white;
+  padding: 24px;
+}
+
+.buttonsContainer {
+  margin-top: 24px;
+  color: grey;
+}
+.buttonContainer {
+  border: 1px solid grey;
+  margin-right: 16px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.icon {
+  vertical-align: middle;
+  margin-right: 8px;
+}
+.line {
+  border-top: 1px solid grey;
+  margin-top: 24px;
+}
+.language {
+  background-color: #d8dfe6;
+  font-weight: 700;
+  margin-right: 16px;
+  color: black;
+}
+
+.languages {
+  margin-top: 24px;
+}
+.foot{
+  margin-top: 24px;
+}
+.published {
+  margin-left: 24px;
+  color: grey;
+}

@@ -1,0 +1,21 @@
+.container {
+  padding: 60px 120px;
+  background-color: white;
+  color: black;
+}
+
+.heading {
+  font-size: 44px;
+  font-weight: 400;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.content {
+}
+
+.skillText {
+  font-size: 18px;
+}
+.tabContent {
+  margin-top: 24px;
+}

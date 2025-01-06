@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  background-color: #d8dfe6; 
+  padding: 60px 120px;
+  color: black;
+}
+
+.imageContainer {
+  flex: 1;
+  margin-right: 20px;
+}
+.centeredTitle {
+  text-align: center;
+  font-size: 44px;
+  margin-bottom: 40px;
+  font-weight: 400;
+}
+
+.textContainer {
+  flex: 2;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.profilePic {
+  border-radius: 50%;
+}
+.aboutMeText {
+  text-align: center;
+}
+.resumeContainer {
+  text-align: center;
+  margin-top: 32px;
+}
+.resumeButton {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid #000;
+  cursor: pointer;
+}

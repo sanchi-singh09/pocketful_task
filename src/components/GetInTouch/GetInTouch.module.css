@@ -1,0 +1,53 @@
+/* GetInTouch.css */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  animation: randomColorAnimation 60s infinite;
+}
+
+.centeredDiv {
+  text-align: center;
+}
+
+.name {
+  font-size: 80px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.subHeading {
+  font-size: 30px;
+  margin-bottom: 16px;
+}
+.icon {
+  font-size: 60px;
+  padding: 8px;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+.moreAboutMe {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+@keyframes randomColorAnimation {
+  0% {
+    background-color: rgb(255, 0, 0);
+  }
+  25% {
+    background-color: rgb(0, 255, 0);
+  }
+  50% {
+    background-color: rgb(0, 0, 255);
+  }
+  75% {
+    background-color: rgb(255, 0, 255);
+  }
+  100% {
+    background-color: rgb(255, 0, 0);
+  }
+}
