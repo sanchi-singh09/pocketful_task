@@ -12,23 +12,19 @@ const Leadership = () => {
         <Grid container spacing={3}>
           <Grid item xs={6}>
             <div>
-              As a React developer with leadership experience, I bring technical
-              expertise, project management skills, and strong communication
-              abilities to the table. I have a proven track record of building
-              large-scale applications, optimizing code for performance, and
-              implementing best practices. Additionally, I have experience
-              leading teams and projects, creating and maintaining project
-              plans, managing timelines and budgets, and ensuring timely
-              delivery of high-quality work. I excel at communicating
-              effectively with team members, stakeholders, and clients, both
-              verbally and in writing, and am a skilled listener who can provide
-              clear and constructive feedback. I am also passionate about
-              mentoring and training other developers to help them develop their
-              skills and achieve their goals. With my ability to solve complex
-              technical problems and think creatively, I am always up-to-date
-              with the latest developments in React and related technologies,
-              and am able to innovate and inspire a positive, collaborative work
-              environment.
+              As a software developer with a strong foundation in React JS, JavaScript, HTML, CSS, Java, C++,
+              and Data Structures and Algorithms (DSA), I bring a passion for learning and a commitment to delivering
+              high-quality software solutions. I have developed and contributed to various projects, honing my ability to write clean, efficient code and solve complex technical problems.
+
+              I am eager to leverage my technical skills to build innovative applications,
+              optimize user experiences, and implement best practices in development.
+              With a keen eye for detail and a strong understanding of front-end technologies,
+              I am excited to contribute to projects that prioritize performance and scalability.
+
+              As a collaborative team player, I value effective communication, feedback, and mentorship,
+              always striving to learn from peers and share knowledge. My goal is to continue growing as a
+              developer, contribute to impactful projects, and work in a dynamic, team-oriented environment
+              where I can further develop my skills and knowledge in software development.
             </div>
           </Grid>
           <Grid item xs={6}>
