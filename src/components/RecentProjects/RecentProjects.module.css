@@ -1,3 +1,4 @@
+/* Updated RecentProjects.css */
 .container {
   padding: 60px 120px;
   background-color: #d8dfe6;
@@ -10,6 +11,7 @@
   margin-bottom: 40px;
   text-align: center;
 }
+
 .card {
   background-color: white;
   padding: 24px;
@@ -19,21 +21,38 @@
   margin-top: 24px;
   color: grey;
 }
+
 .buttonContainer {
-  border: 1px solid grey;
+  border: 1px solid rgb(95, 92, 92);
   margin-right: 16px;
   padding: 8px 16px;
   border-radius: 8px;
   cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
+
+.buttonContainer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.buttonContainer:hover {
+  background-color: grey; 
+  color: #555; 
+}
+
 .icon {
   vertical-align: middle;
   margin-right: 8px;
 }
+
 .line {
   border-top: 1px solid grey;
   margin-top: 24px;
 }
+
 .language {
   background-color: #d8dfe6;
   font-weight: 700;
@@ -44,9 +63,11 @@
 .languages {
   margin-top: 24px;
 }
-.foot{
+
+.foot {
   margin-top: 24px;
 }
+
 .published {
   margin-left: 24px;
   color: grey;

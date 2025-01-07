@@ -17,23 +17,53 @@
   font-weight: 400;
   margin-bottom: 16px;
 }
+
 .subHeading {
   font-size: 30px;
   margin-bottom: 16px;
 }
+
+/* Social Media Links Container */
+.socialMediaContainer {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+/* Social Media Icon Styling */
 .icon {
   font-size: 60px;
-  padding: 8px;
-  margin-bottom: 16px;
   cursor: pointer;
+  color: #555; 
+  transition: color 0.3s ease;
 }
+
+.iconLink:hover .icon {
+  color: #0077b5; 
+}
+
+
 .moreAboutMe {
   padding: 8px 16px;
+  border: 1px solid #aaa; 
   border-radius: 8px;
-  border: 1px solid #fff;
-  margin-bottom: 16px;
+  background-color: white; 
+  color: black; 
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
   cursor: pointer;
+  display: inline-block;
+  transition: transform 0.1s, background-color 0.1s, color 0.1s, border-color 0.1s;
 }
+
+.moreAboutMe:hover {
+  background-color:grey; 
+  color: #000; 
+  border-color: #888; 
+}
+/* Animation for background color */
 @keyframes randomColorAnimation {
   0% {
     background-color: rgb(255, 0, 0);

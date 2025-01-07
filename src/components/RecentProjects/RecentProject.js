@@ -13,12 +13,24 @@ const RecentProject = () => {
             <div>myportfolio</div>
             <div className={styles.buttonsContainer}>
               <span className={styles.buttonContainer}>
-                <GitHubIcon className={styles.icon} />
-                <span className={styles.button}>Clone Project</span>
+                <a
+                  href="https://github.com/user/myportfolio.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <GitHubIcon className={styles.icon} />
+                  Clone Project
+                </a>
               </span>
               <span className={styles.buttonContainer}>
-                <GitHubIcon className={styles.icon} />
-                <span className={styles.button}>Repo</span>
+                <a
+                  href="https://github.com/user/myportfolio" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <GitHubIcon className={styles.icon} />
+                  Repo
+                </a>
               </span>
             </div>
             <div className={styles.line}></div>
@@ -45,12 +57,24 @@ const RecentProject = () => {
             <div>budget_tracker</div>
             <div className={styles.buttonsContainer}>
               <span className={styles.buttonContainer}>
-                <GitHubIcon className={styles.icon} />
-                <span className={styles.button}>Clone Project</span>
+                <a
+                  href="https://github.com/user/myportfolio.git" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <GitHubIcon className={styles.icon} />
+                  Clone Project
+                </a>
               </span>
               <span className={styles.buttonContainer}>
-                <GitHubIcon className={styles.icon} />
-                <span className={styles.button}>Repo</span>
+                <a
+                  href="https://github.com/user/myportfolio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <GitHubIcon className={styles.icon} />
+                  Repo
+                </a>
               </span>
             </div>
             <div className={styles.line}></div>
@@ -77,12 +101,24 @@ const RecentProject = () => {
             <div>task_management</div>
             <div className={styles.buttonsContainer}>
               <span className={styles.buttonContainer}>
-                <GitHubIcon className={styles.icon} />
-                <span className={styles.button}>Clone Project</span>
+                <a
+                  href="https://github.com/user/myportfolio.git" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <GitHubIcon className={styles.icon} />
+                  Clone Project
+                </a>
               </span>
               <span className={styles.buttonContainer}>
-                <GitHubIcon className={styles.icon} />
-                <span className={styles.button}>Repo</span>
+                <a
+                  href="https://github.com/user/myportfolio" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <GitHubIcon className={styles.icon} />
+                  Repo
+                </a>
               </span>
             </div>
             <div className={styles.line}></div>
@@ -109,12 +145,24 @@ const RecentProject = () => {
             <div>aligarh_diary</div>
             <div className={styles.buttonsContainer}>
               <span className={styles.buttonContainer}>
-                <GitHubIcon className={styles.icon} />
-                <span className={styles.button}>Clone Project</span>
+                <a
+                  href="https://github.com/user/myportfolio.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <GitHubIcon className={styles.icon} />
+                  Clone Project
+                </a>
               </span>
               <span className={styles.buttonContainer}>
-                <GitHubIcon className={styles.icon} />
-                <span className={styles.button}>Repo</span>
+                <a
+                  href="https://github.com/user/myportfolio" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <GitHubIcon className={styles.icon} />
+                  Repo
+                </a>
               </span>
             </div>
             <div className={styles.line}></div>

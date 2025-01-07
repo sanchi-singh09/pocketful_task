@@ -26,7 +26,15 @@ const AboutMe = () => {
           reading books, traveling, and exploring new places.
         </p>
         <div className={styles.resumeContainer}>
-          <span className={styles.resumeButton}>Resume</span>
+        <a
+            href="https://drive.google.com/file/d/1GQf5QV4IkuoudwT-edMvhs9IVcAHsas1/view?usp=drive_link" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className={styles.resumeButton}
+          >
+            Resume
+          </a>
+          
         </div>
       </div>
     </div>
